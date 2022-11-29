@@ -1,7 +1,9 @@
 package org.classes;
 
-import java.util.HashMap;
+import org.springframework.stereotype.Component;
 
+import java.util.HashMap;
+@Component
 public class Recruitment {
     private String empName;
     private int empId;

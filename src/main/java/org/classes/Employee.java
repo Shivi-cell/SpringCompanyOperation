@@ -1,8 +1,10 @@
 package org.classes;
 
+import org.springframework.stereotype.Component;
+
 import java.util.HashMap;
 import java.util.Objects;
-
+@Component
 public class Employee {
     private int empId;
     private String empName;

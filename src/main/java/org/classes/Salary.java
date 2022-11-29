@@ -1,5 +1,8 @@
 package org.classes;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public class Salary {
     private int noOfDays;
     private double salary;

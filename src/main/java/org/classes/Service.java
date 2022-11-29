@@ -2,9 +2,10 @@ package org.classes;
 
 import org.interfaces.LeaveInterface;
 import org.interfaces.SalaryInterface;
+import org.springframework.stereotype.Component;
 
+@Component
 public class Service implements LeaveInterface, SalaryInterface {
-
     private Salary calcSalary;
     private Leave leave;
 

@@ -1,5 +1,8 @@
 package org.classes;
 
+import org.springframework.stereotype.Component;
+
+@Component
 public abstract class Operations {
     public abstract void calculateSalary(int empId);
     public abstract void empDetails(int empId);
